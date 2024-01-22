@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="description" content=""> -->
+    <title>Hello World JS!</title>
+    <style>
+        /* body {} */
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+        <h1>Questo documento è un HTML con del codice JavaScript allegato!</h1>
+        <p>Dovremmo aprire la "console" negli strumenti di sviluppo del browser per capire l'effetto che ha prodotto
+            l'esecuzione del nostro codice</p>
+    </main>
+
+    <!-- il codice JS andrebbe inserito come ultima, ultimissima cosa prima della chiusura di body -->
+
+    <!-- metodi di inserimento di script nella pagina: 
+    
+        1) tag script con dentro il contenuto JS direttamente nella pagina. come per il tag style questo approccio è poco riutilizzabile.
+        2) file esterno .js importato tramite attributo src che collegherà quel file alla pagina
+
+    -->
+
+    <p>consoe.log(dog);</p>
+
+    <script>
+        // questo è un commento in JS!
+
+        /*
+        questo è un commento
+        multilinea 
+        */
+
+        // il console log ci produce il riscontro per il codice che abbiamo creato, possiamo inviare un dato in input (dentro le parentesi tonde), 
+        // per vedere l'effettivo risultato nella console degli strumenti di sviluppo
+        console.log("Ciao Epicoders!")
+
+    </script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
